@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=14:antialias=true:autohint=true";
-static char *font2[] = { "JoyPixels:pixelsize=10:antialias=true:autohint=true" };
+static char *font = "xos4 Terminus:style=Regular:size=16:antialias=true:autohint=true";
+static char *font2[] = { "siji:size=16:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
@@ -130,9 +130,9 @@ static const char *colorname[] = {
 	"#ebdbb2",
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#add8e6", /* 256 -> cursor */
+	"#d17b49", /* 256 -> cursor */
 	"#555555", /* 257 -> rev cursor*/
-	"#282828", /* 258 -> bg */
+	"#1f1f1f", /* 258 -> bg */
 	"#ebdbb2", /* 259 -> fg */
 };
 
@@ -158,7 +158,6 @@ static unsigned int cursorshape = 2;
 /*
  * Default columns and rows numbers
  */
-
 static unsigned int cols = 80;
 static unsigned int rows = 24;
 
